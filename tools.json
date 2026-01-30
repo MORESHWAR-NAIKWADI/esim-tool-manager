@@ -1,0 +1,14 @@
+{
+  "ngspice": {
+    "linux": "sudo apt install -y ngspice",
+    "windows": "choco install ngspice -y",
+    "version_cmd": "ngspice --version",
+    "required_version": "ngspice"
+  },
+  "kicad": {
+    "linux": "sudo apt install -y kicad",
+    "windows": "choco install kicad -y",
+    "version_cmd": "kicad --version",
+    "required_version": "kicad"
+  }
+}
