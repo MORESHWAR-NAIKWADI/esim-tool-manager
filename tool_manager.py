@@ -31,7 +31,9 @@ def run_cmd(cmd):
     except:
         return None
 
-# ---------------- FEATURES ---------------- #
+
+
+
 
 def install_tool(name):
     tools = load_tools()
@@ -110,7 +112,10 @@ def configure_paths():
     log("Configured environment variables")
 
 
-# ---------------- MAIN ---------------- #
+
+
+
+
 
 def main():
     parser = argparse.ArgumentParser(description="eSim Tool Manager")
